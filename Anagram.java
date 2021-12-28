@@ -7,8 +7,6 @@ public class Anagram {
     String str1 = "heart";
     String str2 = "earth";
     
-    str1 = str1.toLowerCase();
-    str2 = str2.toLowerCase();
 
     if(str1.length() == str2.length()) {
 
