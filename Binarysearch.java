@@ -12,7 +12,7 @@ public static void main(String[] args)
    System.out.println("Enter number of words you wish to input: ");
    int n=sc.nextInt();
    
-   String[] words= new String[n];
+   Binarysearch[] words= new Binarysearch[n];
 
    System.out.println("Enter the words");
    for ( i = 0; i < words.length; i++)
@@ -22,7 +22,7 @@ public static void main(String[] args)
    }
 
    System.out.println("enter the word you want to search for");
-   String word=sc.next();
+   Binarysearch word=sc.next();
 
    Arrays.sort(words);
    
